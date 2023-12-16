@@ -61,6 +61,7 @@ const memberTeam = [
 */
 
 
+//document.getElementById("team").innerHTML = JSON.stringify(memberTeam);
 //MILESTONE 1:
 //Stampare su console, per ogni membro del team, le informazioni di nome, ruolo e la stringa della foto
 
@@ -98,13 +99,22 @@ const memberTeam = [
     },
 ]
 
-console.log(memberTeam);
+//console.log(memberTeam);
 
-memberTeam.forEach((element) => {
-    console.log(`nome: ${element.nome} 
-    lavoro: ${element.work} 
-    ${element.image}`);
-})
+//console.log(memberTeam[0].nome);
+
+for (let i = 0; i < memberTeam.length; i++) {
+    const member = memberTeam[i];
+
+    console.log(member.nome);
+    console.log(member.work);
+    console.log(member.image);
+    
+}
+
+
+
+
 
 
 
