@@ -125,27 +125,27 @@ const memberTeam = [
     {
         nome: 'Angela Caroll',
         work: 'Chief Editor',
-        image: 'wayne-barnett-founder-ceo.jpg',
+        image: 'angela-caroll-chief-editor.jpg',
     },
     {
         nome: 'Walter Gordon',
         work: 'Office Manager',
-        image: 'wayne-barnett-founder-ceo.jpg',
+        image: 'walter-gordon-office-managero.jpg',
     },
     {
         nome: 'Angela Lopez',
         work: 'Office Manager',
-        image: 'wayne-barnett-founder-ceo.jpg',
+        image: 'angela-lopez-social-media-manager.jpg',
     },
     {
         nome: 'Scott Estrada',
         work: 'Developer',
-        image: 'wayne-barnett-founder-ceo.jpg',
+        image: 'scott-estrada-developer.jpg',
     },
     {
         nome: 'Barbara Ramos',
         work: 'Graphic Designer',
-        image: 'wayne-barnett-founder-ceo.jpg',
+        image: 'barbara-ramos-graphic-designer.jpg',
     },
 ]
 
@@ -167,12 +167,5 @@ for (let i = 0; i < memberTeam.length; i++) {
           </div>
         </div>
       </div>`
-
-
-
     rowDomElement.insertAdjacentHTML('beforeend', markup)
-
-
 }
-
-
